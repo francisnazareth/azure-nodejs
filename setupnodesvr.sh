@@ -7,7 +7,7 @@ dpkg -i packages-microsoft-prod.deb
 add-apt-repository universe
 apt-get -y install apt-transport-https
 apt-get -y update
-apt-get -y install unzip apache2 dotnet-sdk-2.2
+apt-get -y install unzip
 ufw allow 8080/tcp
 tar -xvf vote.tar
 cd vote
