@@ -5,4 +5,4 @@ apt-get install -y nodejs
 ufw allow 8080/tcp
 tar -xvf vote.tar
 cd vote
-npm start
+npm start &
